@@ -16,7 +16,7 @@ export default function Counter() {
         >
           Increment
         </button>
-        
+        //hii
         <span>{count}</span>
         <button
           aria-label="Decrement value"
