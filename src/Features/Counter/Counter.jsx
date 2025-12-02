@@ -6,6 +6,8 @@ export default function Counter() {
   const count = useSelector((state) => state.counter.value)
   const dispatch = useDispatch()
 //testing
+
+        //hii
   return (
     <div>
       <div>
@@ -16,7 +18,6 @@ export default function Counter() {
         >
           Increment
         </button>
-        //hii
         <span>{count}</span>
         <button
           aria-label="Decrement value"
