@@ -22,14 +22,14 @@ export default function Counter() {
         <button
           aria-label="Decrement value"
           onClick={() => dispatch(decrement())}
-          style={{marginRight:"20px", color:"white", backgroundColor:"navy",marginLeft:"5PX"}}
+          style={{marginRight:"20px", color:"black", backgroundColor:"pink",marginLeft:"5PX"}}
         >
           Decrement
         </button>
 
       
         <button aria-label="Decrement value"
-        style={{marginRight:"20px",backgroundColor:"yellow"}}
+        style={{marginRight:"20px",backgroundColor:"pink"}}
           onClick={() => dispatch(reset())}>Reset</button>
       </div>
     </div>
